@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>978</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCommandLinkButton" name="commandLinkButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>260</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>New password</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>978</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuddddd">
+    <property name="title">
+     <string>Passwords</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionDelete_all_Passwords"/>
+    <addaction name="actionDelete_some_Passwords"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionVersion_3_9"/>
+    <addaction name="actionjprogram_bk_com"/>
+   </widget>
+   <addaction name="menuddddd"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <action name="actionDelete_all_Passwords">
+   <property name="text">
+    <string>Remove all Passwords</string>
+   </property>
+  </action>
+  <action name="actionDelete_some_Passwords">
+   <property name="text">
+    <string>Remove some Passwords</string>
+   </property>
+  </action>
+  <action name="actionVersion_3_9">
+   <property name="text">
+    <string>Version 3.9</string>
+   </property>
+  </action>
+  <action name="actionjprogram_bk_com">
+   <property name="text">
+    <string>jprogram@bk.com</string>
+   </property>
+  </action>
+  <action name="actionDark_Material">
+   <property name="text">
+    <string>Strict Dark</string>
+   </property>
+  </action>
+  <action name="actionLight">
+   <property name="text">
+    <string>Usially Light</string>
+   </property>
+  </action>
+  <action name="actionMaster_key">
+   <property name="text">
+    <string>All settings</string>
+   </property>
+  </action>
+  <action name="actionNew_Password">
+   <property name="text">
+    <string>New Password</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionCrypt_file">
+   <property name="text">
+    <string>Crypt file</string>
+   </property>
+  </action>
+  <action name="actionCrypt_disk">
+   <property name="text">
+    <string>Crypt disk</string>
+   </property>
+  </action>
+  <action name="actionDecrypt_file_disk">
+   <property name="text">
+    <string>Decrypt file</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
