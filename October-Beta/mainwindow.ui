@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>947</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QCommandLinkButton" name="commandLinkButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>260</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 12pt &quot;System&quot;;</string>
+    </property>
+    <property name="text">
+     <string>New password</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="changeMasterKey">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>271</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 12pt &quot;System&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Change master-key</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>200</y>
+      <width>211</width>
+      <height>28</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>170</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New key</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="saveMasterKey">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>240</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>70</y>
+      <width>351</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../build-qqw-Desktop_Qt_5_15_0_MSVC2015_64bit-Debug/sized.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblshortcut">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>90</y>
+      <width>401</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Generated password:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="generatedLbl">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>140</y>
+      <width>421</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="qrGenBth">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>10</y>
+      <width>71</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(252, 2, 19, 255), stop:1 rgba(3, 20, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>My qr</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="generate_passwdBth">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 12pt &quot;System&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Generate passwords</string>
+    </property>
+   </widget>
+   <widget class="QCommandLinkButton" name="viewPasswdsBth">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>183</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 700 12pt &quot;System&quot;;</string>
+    </property>
+    <property name="text">
+     <string>View passwords</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>947</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuddddd">
+    <property name="title">
+     <string>Passwords</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="separator"/>
+    <addaction name="actionDelete_all_Passwords"/>
+    <addaction name="actionDelete_some_Passwords"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionVersion_3_9"/>
+    <addaction name="actionjprogram_bk_com"/>
+   </widget>
+   <widget class="QMenu" name="menuWi_Fi_Passwords">
+    <property name="title">
+     <string>Wi-Fi Passwords</string>
+    </property>
+    <addaction name="actionHome_Wi_Fi"/>
+    <addaction name="actionOthers"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <widget class="QMenu" name="menuI_delete_my_passwords_Help_me">
+     <property name="title">
+      <string>I delete my passwords! Help me!</string>
+     </property>
+     <addaction name="actionReestablish"/>
+     <addaction name="actionStart_over"/>
+    </widget>
+    <widget class="QMenu" name="menuI_cant_generate_qr">
+     <property name="title">
+      <string>I cant generate qr</string>
+     </property>
+     <addaction name="actionRegenerate_qr"/>
+     <addaction name="actionWrite_support"/>
+    </widget>
+    <addaction name="menuI_delete_my_passwords_Help_me"/>
+    <addaction name="menuI_cant_generate_qr"/>
+   </widget>
+   <addaction name="menuddddd"/>
+   <addaction name="menuWi_Fi_Passwords"/>
+   <addaction name="menuAbout"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionDelete_all_Passwords">
+   <property name="text">
+    <string>Remove all Passwords</string>
+   </property>
+  </action>
+  <action name="actionDelete_some_Passwords">
+   <property name="text">
+    <string>Remove some Passwords</string>
+   </property>
+  </action>
+  <action name="actionVersion_3_9">
+   <property name="text">
+    <string>Version 3.9</string>
+   </property>
+  </action>
+  <action name="actionjprogram_bk_com">
+   <property name="text">
+    <string>JuneSunAt7</string>
+   </property>
+  </action>
+  <action name="actionNew_Password">
+   <property name="text">
+    <string>New Password</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionHome_Wi_Fi">
+   <property name="text">
+    <string>Home Wi-Fi</string>
+   </property>
+  </action>
+  <action name="actionOthers">
+   <property name="text">
+    <string>Others</string>
+   </property>
+  </action>
+  <action name="actionReestablish">
+   <property name="text">
+    <string>Reestablish</string>
+   </property>
+  </action>
+  <action name="actionStart_over">
+   <property name="text">
+    <string>Start over </string>
+   </property>
+  </action>
+  <action name="actionRegenerate_qr">
+   <property name="text">
+    <string>Regenerate qr</string>
+   </property>
+  </action>
+  <action name="actionWrite_support">
+   <property name="text">
+    <string>Write support</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
